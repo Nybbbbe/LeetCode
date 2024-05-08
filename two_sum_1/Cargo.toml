@@ -1,0 +1,14 @@
+[package]
+name = "two_sum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+bencher = "0.1.5"
+
+[[bench]]
+name = "benchmark"
+path = "benches/benchmark.rs"
+harness = false
